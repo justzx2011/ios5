@@ -20,6 +20,7 @@
 		5BFA968B15ADB6DD002A5289 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BFA966C15ADB6DD002A5289 /* Foundation.framework */; };
 		5BFA969315ADB6DD002A5289 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BFA969115ADB6DD002A5289 /* InfoPlist.strings */; };
 		5BFA969615ADB6DD002A5289 /* WebviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFA969515ADB6DD002A5289 /* WebviewTests.m */; };
+		5BFA96A015ADB769002A5289 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BFA969F15ADB769002A5289 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +38,22 @@
 		5BFA966A15ADB6DD002A5289 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5BFA966C15ADB6DD002A5289 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5BFA966E15ADB6DD002A5289 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5BFA967215ADB6DD002A5289 /* Webview-Info.plist */ = {isa = PBXFileReference; path = "Webview-Info.plist"; sourceTree = "<group>"; };
+		5BFA967215ADB6DD002A5289 /* Webview-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Webview-Info.plist"; sourceTree = "<group>"; };
 		5BFA967415ADB6DD002A5289 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5BFA967615ADB6DD002A5289 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5BFA967815ADB6DD002A5289 /* Webview-Prefix.pch */ = {isa = PBXFileReference; path = "Webview-Prefix.pch"; sourceTree = "<group>"; };
-		5BFA967915ADB6DD002A5289 /* ZXAppDelegate.h */ = {isa = PBXFileReference; path = ZXAppDelegate.h; sourceTree = "<group>"; };
+		5BFA967815ADB6DD002A5289 /* Webview-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Webview-Prefix.pch"; sourceTree = "<group>"; };
+		5BFA967915ADB6DD002A5289 /* ZXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXAppDelegate.h; sourceTree = "<group>"; };
 		5BFA967A15ADB6DD002A5289 /* ZXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXAppDelegate.m; sourceTree = "<group>"; };
 		5BFA967D15ADB6DD002A5289 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		5BFA967F15ADB6DD002A5289 /* ZXViewController.h */ = {isa = PBXFileReference; path = ZXViewController.h; sourceTree = "<group>"; };
+		5BFA967F15ADB6DD002A5289 /* ZXViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXViewController.h; sourceTree = "<group>"; };
 		5BFA968015ADB6DD002A5289 /* ZXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXViewController.m; sourceTree = "<group>"; };
 		5BFA968715ADB6DD002A5289 /* WebviewTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebviewTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BFA968815ADB6DD002A5289 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		5BFA969015ADB6DD002A5289 /* WebviewTests-Info.plist */ = {isa = PBXFileReference; path = "WebviewTests-Info.plist"; sourceTree = "<group>"; };
+		5BFA969015ADB6DD002A5289 /* WebviewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WebviewTests-Info.plist"; sourceTree = "<group>"; };
 		5BFA969215ADB6DD002A5289 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5BFA969415ADB6DD002A5289 /* WebviewTests.h */ = {isa = PBXFileReference; path = WebviewTests.h; sourceTree = "<group>"; };
+		5BFA969415ADB6DD002A5289 /* WebviewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebviewTests.h; sourceTree = "<group>"; };
 		5BFA969515ADB6DD002A5289 /* WebviewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebviewTests.m; sourceTree = "<group>"; };
+		5BFA969F15ADB769002A5289 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BFA96A015ADB769002A5289 /* MapKit.framework in Frameworks */,
 				5BFA966B15ADB6DD002A5289 /* UIKit.framework in Frameworks */,
 				5BFA966D15ADB6DD002A5289 /* Foundation.framework in Frameworks */,
 				5BFA966F15ADB6DD002A5289 /* CoreGraphics.framework in Frameworks */,
@@ -100,6 +103,7 @@
 		5BFA966915ADB6DD002A5289 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5BFA969F15ADB769002A5289 /* MapKit.framework */,
 				5BFA966A15ADB6DD002A5289 /* UIKit.framework */,
 				5BFA966C15ADB6DD002A5289 /* Foundation.framework */,
 				5BFA966E15ADB6DD002A5289 /* CoreGraphics.framework */,
